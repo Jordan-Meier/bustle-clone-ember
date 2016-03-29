@@ -8,7 +8,6 @@ export default Ember.Component.extend({
       }
     },
     update(story, params) {
-      debugger;
       this.sendAction('update', story, params);
     }
   }
