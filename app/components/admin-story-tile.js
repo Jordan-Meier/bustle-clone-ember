@@ -6,6 +6,10 @@ export default Ember.Component.extend({
       if (confirm('Are you sure you want to delete this story?')) {
         this.sendAction('destroyStory', story);
       }
+    },
+    update(story, params) {
+      debugger;
+      this.sendAction('update', story, params);
     }
   }
 });
