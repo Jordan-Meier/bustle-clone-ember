@@ -1,0 +1,10 @@
+
+<h2>Welcome, Admin! Update, Delete and Create new stories:</h2>
+
+<div class="row">
+  <div class="col-md-4">
+    {{#each model as |story|}}
+    {{story-tile story=story}}
+    {{/each}}
+  </div>
+</div>
