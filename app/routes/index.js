@@ -5,9 +5,5 @@ export default Ember.Route.extend({
     return this.store.findAll('story');
   },
   actions: {
-    // destroyStory(story) {
-    //   story.destroyRecord();
-    //   this.transitionTo('admin');
-    // }
   }
 });
