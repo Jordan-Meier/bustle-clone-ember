@@ -1,6 +1,7 @@
 
 <h2>Welcome, Admin! Update, Delete and Create new stories:</h2>
 
+{{new-story saveStory="saveStory"}}
 <div class="row">
   <div class="col-md-4">
     {{#each model as |story|}}
@@ -8,5 +9,3 @@
     {{/each}}
   </div>
 </div>
-
-{{new-story saveStory="saveStory"}}
