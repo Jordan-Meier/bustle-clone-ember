@@ -1,4 +1,7 @@
-<h3> {{#link-to 'story' story.id}} {{story.headline}} {{/link-to}}
-  By: {{story.author}}
-</h3>
-<h4>{{story.date}}</h4>
+<div class="">
+  <p><img src={{story.image}} alt={{story.headline}}/></p>
+  <h3> {{#link-to 'story' story.id}} {{story.headline}} {{/link-to}}
+  </h3><hr>
+  <h4>By: {{story.author}}</h4>
+  <h4>{{story.date}}</h4><br><br>
+</div>
